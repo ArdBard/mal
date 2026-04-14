@@ -24,7 +24,7 @@
         actual,
       });
 
-      alert(`Amount mismatch detected for ${row.id}\nExpected: ${expected}\nActual: ${actual}`);
+      alert(`Amount mismatch detected! \nExpected: ${expected}\nActual: ${actual}`);
     }
   }
 
