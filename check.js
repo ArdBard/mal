@@ -83,7 +83,7 @@
         const url = this.__observerUrl || "";
         const method = (this.__observerMethod || "").toUpperCase();
 
-        if (method === "POST" && url.includes("/api/transactions")) {
+        if (method === "POST" && url.includes("/account/transaction/list")) {
           const data =
             this.responseType === "json"
               ? this.response
@@ -91,7 +91,7 @@
 
           for (const tx of data.transactions || []) {
             expectedAmounts.set(
-              `collapsible-row-${tx.id}`,
+              `collapsible-row-${tx.transactionId}`,
               normalizeExpectedAmount(tx)
             );
           }
