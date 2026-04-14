@@ -8,7 +8,7 @@
 
   function normalizeExpectedAmount(tx) {
     // adjust this to match exactly how the UI formats it
-    return `${tx.direction === "DEBIT" ? "-" : ""}${Number(tx.amount).toFixed(2)} ${tx.currencyCode}`.replace(/\s+/g, " ").trim();
+    return `${tx.direction === "DEBIT" ? "-" : ""}${Number(tx.amount).toLocaleString("cs-CZ", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} ${tx.currencyCode}`.replace(/\s+/g, " ").trim();
   }
 
   function checkRowAmount(row) {
