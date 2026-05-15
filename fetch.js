@@ -10,7 +10,7 @@
   if (found) {
     const body = new URLSearchParams({
       sso: 212628338,
-      desc: "- Interní pentesty SB\nSonarQube",
+      desc: "- Interní pentesty SB\n- SonarQube",
       table: "6C6/4"
     });
 
