@@ -1,4 +1,4 @@
-(async () => {
+/*(async () => {
   const res = await fetch(`/`);
   const html = await res.text();
 
@@ -29,4 +29,4 @@
       console.error("POST failed:", error);
     }
   }
-})();
+})();*/
