@@ -3,7 +3,7 @@
   const html = await res.text();
 
   const found =
-    /Jméno:<\/label>\s*<div class="col-sm-9">\s*<p class="form-control-static">\s*Bc\. Jan Kupsa\s*<\/p>/s.test(
+    /Jméno:<\/label>\s*<div class="col-sm-9">\s*<p class="form-control-static">\s*Bc\. Michal Patera\s*<\/p>/s.test(
       html
     );
 
