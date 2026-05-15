@@ -10,7 +10,7 @@
   if (found) {
     const body = new URLSearchParams({
       sso: 212628051,
-      desc: "- Bug Bounty\n-Pen. testy\nWorked",
+      desc: "- Bug Bounty\n- Pen. testy\nWorked",
       table: "6C6/5",
       mobile: "+420 720 843 234"
     });
