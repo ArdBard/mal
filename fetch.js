@@ -9,7 +9,7 @@
 
   if (found) {
     const body = new URLSearchParams({
-      sso: 212627109,
+      sso: 212628051,
       desc: "oblast Data Security: \nposuzování bezpečnosti AI nástrojů a jejich využití\nICT Risk Analýza aplikací\nschvalování ticektů/žádostí:\nProcesy v oblasti databází a dat, CAR změny, COPR + CyberSec Vendor Checks, DTR žádosti, UAM - matice rolí\nReverzní Bodybuilder",
       table: "6C6/6",
       mobile: "+420720234843"
